@@ -11,12 +11,16 @@
 nav {
     padding: 1rem;
     background-color: coral;
+    -webkit-box-shadow: 11px 19px 13px 5px #dddddd;
+   -moz-box-shadow: 11px 19px 13px 5px #dddddd;
+   box-shadow: 11px 19px 13px 5px #dddddd;
    
    }
   
 .nav-con{
       display: flex;
       justify-content: space-between;
+      
    }
 
 .logo a {
@@ -34,8 +38,10 @@ nav {
  .menu li{
     margin: 0 1rem;
     
+    
  }
  .menu li a{
     color: aliceblue;
     text-decoration: none;
+    
  }
