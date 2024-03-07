@@ -2,24 +2,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+   }
+
+.container{
+      max-width: 1140px;
+      margin: 0 auto;
+   }
 nav {
     padding: 1rem;
     background-color: coral;
     display: flex;
     justify-content: space-between;
-}
-   .nav-con{
+   }
+  
+.nav-con{
       display: flex;
       justify-content: space-between;
    }
 
- .logo a {
-    font-size: 3rem;
+.logo a {
+    font-size: 2rem;
     color: aliceblue;
     text-decoration: none;
+    
  }
- .menu {
+.menu {
     display: flex;
     list-style: none;
     align-items: center;
