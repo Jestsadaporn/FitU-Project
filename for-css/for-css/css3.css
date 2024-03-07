@@ -9,6 +9,11 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+   .nav-con{
+      display: flex;
+      justify-content: space-between;
+   }
+
  .logo a {
     font-size: 3rem;
     color: aliceblue;
