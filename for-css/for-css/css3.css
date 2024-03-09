@@ -9,9 +9,11 @@
       margin: 0 auto;
    }
 nav {
-    padding: 1rem;
-    background-color: coral;
-    -webkit-box-shadow: 11px 19px 13px 5px #dddddd;
+   padding: 1rem;
+   background: #e0bb43;
+   background: -webkit-linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
+   background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
+   -webkit-box-shadow: 11px 19px 13px 5px #dddddd;
    -moz-box-shadow: 11px 19px 13px 5px #dddddd;
    box-shadow: 11px 19px 13px 5px #dddddd;
    
