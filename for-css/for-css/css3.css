@@ -6,7 +6,7 @@
   
    }
    body{
-      background-image:url(https://img.freepik.com/free-photo/dumbbells-floor-gym-ai-generative_123827-23745.jpg);
+      background-image:url(https://wallpapers.com/images/featured/barbell-am7v48yepmncv6c6.jpg);
       background-size: cover;
    }
 
@@ -22,10 +22,10 @@ nav {
 
    }
   
-.nav-con1{     
+.nav-con{
       display: flex;
       justify-content: space-between;
-
+      
    }
 
 .logo a {
@@ -75,8 +75,7 @@ nav {
 .profile-not a img {
    width: 20%;
    margin: 2rem 0;
-   justify-content: space-between;
-   padding: 1rem;
+ 
 }
 
 .profile-con{
