@@ -44,7 +44,7 @@ nav {
    display: flex;
  }
  .profile-img img{
-   width: 100%;
+   width: 80%;
    padding: 1rem;
  }
  .profile-info{
@@ -53,11 +53,22 @@ nav {
  }
 .profile-info h3{
    font-size:  1rem;
-   font-size: medium;
+   
 }
 .profile-info p{
    margin: 1rem 0;
 }
-.profile-not  a img{
-   size: 200px;
+.profile-not a img {
+   size: 5px;
+   width: 20%;
+   padding: 0.5rem;
+   margin: 1rem 0;
+   justify-content: space-between;
+}
+.profile{
+   padding: 0rem;
+   background: #e0bb43;
+   background: -webkit-linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
+   background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
+
 }
