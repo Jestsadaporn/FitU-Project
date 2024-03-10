@@ -9,14 +9,11 @@
       margin: 0 auto;
    }
 nav {
-   padding: 1rem;
+   padding: 0rem;
    background: #e0bb43;
    background: -webkit-linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
    background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
-   -webkit-box-shadow: 11px 19px 13px 5px #dddddd;
-   -moz-box-shadow: 11px 19px 13px 5px #dddddd;
-   box-shadow: 11px 19px 13px 5px #dddddd;
-   
+
    }
   
 .nav-con{
@@ -35,15 +32,28 @@ nav {
     display: flex;
     list-style: none;
     align-items: center;
-
  }
  .menu li{
-    margin: 0 1rem;
-    
-    
+    margin: 0 1rem; 
  }
  .menu li a{
     color: aliceblue;
     text-decoration: none;
-    
  }
+ .profile-con{
+   display: flex;
+ }
+ .profile-img img{
+   width: 30%;
+   padding: 1rem;
+ }
+ .profile-info{
+   width: 100%;
+   padding:  1rem;
+ }
+.profile-info h3{
+   font-size:  1rem;
+}
+.profile-info p{
+   margin: 1rem 0;
+}
