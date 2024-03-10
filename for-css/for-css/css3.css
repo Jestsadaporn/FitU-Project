@@ -58,3 +58,6 @@ nav {
 .profile-info p{
    margin: 1rem 0;
 }
+.profile-not  a img{
+   size: 200px;
+}
