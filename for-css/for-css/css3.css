@@ -1,7 +1,13 @@
- * {
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+   }
+   body{
+      background-image:url(https://img.freepik.com/free-photo/dumbbells-floor-gym-ai-generative_123827-23745.jpg);
+      background-size: cover;
    }
 
 .container{
@@ -9,7 +15,7 @@
       margin: 0 auto;
    }
 nav {
-   padding: 0rem;
+   padding: 1rem;
    background: #e0bb43;
    background: -webkit-linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
    background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
@@ -32,6 +38,7 @@ nav {
     display: flex;
     list-style: none;
     align-items: center;
+    
  }
  .menu li{
     margin: 0 1rem; 
@@ -54,20 +61,28 @@ nav {
  }
 .profile-info h3{
    font-size:  1rem;
+   -webkit-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
+   -moz-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
+   box-shadow: 30px 10px 10.5px -9.5px #dddddd;
    
 }
 .profile-info p{
    margin: 1rem 0;
+   -webkit-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
+   -moz-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
+   box-shadow: 30px 10px 10.5px -9.5px #dddddd;
 }
 .profile-not a img {
    width: 20%;
-  
    margin: 2rem 0;
  
 }
 
 .profile-con{
-   background-color:pink;
-   padding: 0rem;
+   background: rgba(255,255,255,0.5);
+   -webkit-backdrop-filter: blur(33px);
+   backdrop-filter: blur(33px);
+   border: 1px solid rgba(255,255,255,0.25);
+   border-radius: 51% 49% 51% 49% / 6% 7% 6% 4%;
    margin: 1rem;
 }
