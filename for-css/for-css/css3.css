@@ -47,3 +47,12 @@ nav {
     text-decoration: none;
     
  }
+ 
+ .profile-con{
+   display: flex;
+
+ }
+ ..profile-con img{
+   width: 50%;
+
+ }
