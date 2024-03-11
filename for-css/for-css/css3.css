@@ -14,8 +14,8 @@
       max-width: 1140px;
       margin: 0 auto;
    }
-nav {
-   padding: 0rem;
+header {
+   padding: 1rem;
    background: #e0bb43;
    background: -webkit-linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
    background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
@@ -74,15 +74,24 @@ nav {
 }
 .profile-not a img {
    width: 20%;
-   margin: 2rem 0;
+   margin: 1rem 0;
+   float: right;
  
 }
 
 .profile-con{
    background: rgba(255,255,255,0.5);
-   -webkit-backdrop-filter: blur(33px);
-   backdrop-filter: blur(33px);
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
    border: 1px solid rgba(255,255,255,0.25);
-   border-radius: 51% 49% 51% 49% / 6% 7% 6% 4%;
    margin: 1rem;
+}
+.pic2{
+   float: right;
+   margin: 1rem;
+   padding:  10px;
+
+}
+.pic1{
+   padding:  10px;
 }
