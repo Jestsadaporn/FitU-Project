@@ -57,6 +57,7 @@ header {
  }
    .profile{
       float: left;
+      padding-left: 3rem;
    }
 
  .profile-con{
