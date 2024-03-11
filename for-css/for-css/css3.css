@@ -21,6 +21,14 @@ header {
    background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
 
    }
+
+   aside{
+      float: right;
+      padding-top: 1rem;
+      padding-right: 3rem;
+      
+      
+   }
   
 .nav-con{
       display: flex;
@@ -47,6 +55,10 @@ header {
     color: aliceblue;
     text-decoration: none;
  }
+   .profile{
+      float: left;
+   }
+
  .profile-con{
    display: flex;
  }
