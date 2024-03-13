@@ -164,4 +164,13 @@ header {
    font-weight:800;
    
 }
-
+.input2 {
+   background: rgba(255,255,255,0.5);
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255,255,255,0.25);
+   margin: 0.3rem;
+   border-radius: 3px ;
+   font-size: 20px;
+   padding: 0.3rem;
+}
