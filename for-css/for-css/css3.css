@@ -43,6 +43,10 @@ header {
     color: aliceblue;
     text-decoration: none;
     align-items: center;
+    font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
     
  }
 .menu {
@@ -73,6 +77,10 @@ header {
  .menu li a{
     color: black;
     text-decoration: none;
+    font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 350;
+   font-style: normal;
  }
    .profile{
       float: left;
@@ -163,6 +171,10 @@ header {
    padding: 0 10px ;
    font-size: 18px;
    font-weight: 300;
+   font-family: "Space Grotesk", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
    
 }
 .input2 {
@@ -174,4 +186,9 @@ header {
    border-radius: 10px ;
    font-size: 20px;
    padding: 0.3rem;
+}
+
+.top-hit{
+   float:left ;
+  
 }
