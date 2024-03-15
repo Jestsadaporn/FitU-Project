@@ -27,9 +27,6 @@ header {
       padding-top: 1rem;
       padding-right: 3rem;
       justify-content: right;
-     
-      
-      
       
    }
   
@@ -236,4 +233,17 @@ header {
 
 .num-post{
    padding-left: 1rem;
+}
+
+.post-con{
+   float: left;
+   padding: 1rem;
+   background: rgba(255,255,255,0.5);
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255,255,255,0.25);
+   border-radius: 20px
+}
+.post-blog{
+   margin: 2rem;
 }
