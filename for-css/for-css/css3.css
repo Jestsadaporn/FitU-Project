@@ -188,7 +188,8 @@ header {
    padding: 0.3rem;
 }
 
-.top-hit{
-   float:left ;
-  
+.top-hit p{
+   float:right;
+   
+ 
 }
