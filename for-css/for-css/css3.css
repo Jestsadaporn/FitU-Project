@@ -188,8 +188,13 @@ header {
    padding: 0.3rem;
 }
 
-.top-hit p{
-   float:right;
-   
- 
+.top-hit {
+   padding: 0.5rem  ;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 350;
+   font-style: normal;
+   font-size: 18px;
+
+
 }
