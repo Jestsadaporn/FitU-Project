@@ -187,6 +187,16 @@ header {
    font-size: 20px;
    padding: 0.3rem;
 }
+.con-top{
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+   background: rgba(255,255,255,0.5);
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   border: 1px solid rgba(255,255,255,0.25);
+   border-radius: 20px;
+}
 
 .top-hit {
    padding: 0.5rem  ;
@@ -196,8 +206,13 @@ header {
    font-style: normal;
    font-size: 18px;
 
+
 }
 .top-list a{
    text-decoration: none;
    color: #252525;
+}
+
+.num-post{
+   padding-left: 1rem;
 }
