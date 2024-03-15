@@ -196,5 +196,8 @@ header {
    font-style: normal;
    font-size: 18px;
 
-
+}
+.top-list a{
+   text-decoration: none;
+   color: #252525;
 }
