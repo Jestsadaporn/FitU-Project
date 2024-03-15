@@ -197,8 +197,11 @@ header {
    border: 1px solid rgba(255,255,255,0.25);
    border-radius: 20px;
 }
+.past-head{
+   padding: 0.5rem  ;
+}
 
-.top-hit {
+.top-head {
    padding: 0.5rem  ;
    font-family: "Oswald", sans-serif;
    font-optical-sizing: auto;
