@@ -242,8 +242,28 @@ header {
    -webkit-backdrop-filter: blur(10px);
    backdrop-filter: blur(10px);
    border: 1px solid rgba(255,255,255,0.25);
-   border-radius: 20px
+   border-radius: 20px;
+   display : flex;
+   width: 1000px;
+   height: 26vh;
+   
 }
-.post-blog{
-   margin: 2rem;
+.post-con p{
+   align-items: center;
+   padding: 1rem;
+    font-size: medium;
+   margin: 1rem;
+   float: left;
+  
+    
+}
+
+
+
+
+.post-blog input{
+   width: 500px;
+   height: 20vh;
+   font-size: medium;
+   border-radius: 15px ;
 }
