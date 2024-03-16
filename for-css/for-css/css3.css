@@ -59,14 +59,10 @@ header {
     background: transparent;
     position: relative;
     transition: all 0.25s ease;
-     font-size: 1rem;
+   font-size: 1rem;
  }
  .menu li{
     margin: 0 1rem;
-    background: rgba(255,255,255,0.5);
-   -webkit-backdrop-filter: blur(10px);
-   backdrop-filter: blur(10px);
-   border: 1px solid rgba(255,255,255,0.25);
    width: 120px;
    color: #dddddd;
    text-align: center;
@@ -82,7 +78,12 @@ header {
    font-optical-sizing: auto;
    font-weight: 350;
    font-style: normal;
+   transition: background-color 0.4s;
+   
  }
+
+
+
    .profile{
       float: left;
       padding-left: 3rem;
@@ -269,3 +270,27 @@ header {
    text-align: left;
    
 }
+.button1 {
+   background: rgba(255,255,255,0.15);
+   -webkit-backdrop-filter: blur(19px);
+   backdrop-filter: blur(19px);
+   border: 1px solid rgba(255,255,255,0.075);
+   border-radius: 6px;
+   width: 120px;
+   color: #dddddd;
+   text-align: center;
+   border-radius: 10px;
+   transition: background-color 0.4s;
+   padding: 0.3rem;
+   font-size: 1rem;
+   transition: font-size 0.5s ease-out;
+}
+.button1:hover {
+   background: rgba(255,255,255,0.35);
+   -webkit-backdrop-filter: blur(28px);
+   backdrop-filter: blur(28px);
+   border: 1px solid rgba(255,255,255,0.175);
+   transition: font-size 0.3s ease-in;
+   font-size: 1.2rem;
+
+ }

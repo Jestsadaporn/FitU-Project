@@ -7,6 +7,12 @@
     <meta name="author" content="FitU team dev">
     <meta name="keywords" content="FitU "> 
     <title>Fitu post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <bod>
 
@@ -19,11 +25,11 @@
                 <a href="#">FitU</a>
             </div>
             <ul class="menu">
-                <li><a href="page3.html">HOME</a></li>
-                <li><a href="page4.html">CHAT</a></li>
-                <li><a href="page5.html">WORKOUT</a></li>
-                <li><a href="page6.html">ACTIVITY</a></li>
-                <li><a href="page7.html">GAME</a></li>
+               <li><button class="button1"><a href="page3.html" class="HOME">HOME</a></button></li>
+                <li><button class="button1"><a href="page4.html">CHAT</a></button></li>
+                <li><button class="button1"><a href="page5.html">WORKOUT</a></button></li>
+                <li><button class="button1"><a href="page6.html">ACTIVITY</a></button></li>
+                <li><button class="button1"><a href="page7.html">GAME</a></button></li>
 
             </ul>
             </div>
@@ -55,19 +61,54 @@
     <aside>
         <div class="container">
             <div class="side-con">
-                <div class=" search-con">
-                    <input type="text" name="">
-                    <input type="submit" value="search">
-                    
-
+                <div class=" search-box">
+                    <p>search</p>
+                    <input type="text" name="search"class="input1">
+                    <input type="submit" value="submit" class="input2" >
                 </div>
-
+                <div  class="con-past">
+                    <div class="past-head">
+                        <p>you have ever searched</p>
+                    </div>
+                    <div class="past-list">
+                        <a href="#"><p>1 Lorem ipsum dolor sit.</p></a><br>
+                        <a href="#"><p>2 Loremipsum dolor sit.. .</p></a><br>
+                        <a href="#"><p>3 Loremipsum dolor sit...</p></a><br>
+                    </div>
+                    
+                </div>
+                <div class="top-head">
+                    <p>top-hit today</p>
+                </div>
+                <div class="con-top">
+                    <div class="top-list">
+                    <a href="#"><p>1 Lorem, ipsum dolor.</p></a><br>
+                    <a href="#"><p>2 Lorem, ipsum dolor.</p></a><br>
+                    <a href="#"><p>3 Lorem, ipsum dolor.</p></a><br>
+                    </div>
+                    <div class="num-post">
+                        <p>100 post</p><br>
+                        <p>50 post</p><br>
+                        <p>10 post</p><br>
+                    </div>
+                </div>
+                    
             </div>
         </div>
 
     </aside>
     <!-- sidebar right -->
-
-
-</bod>
+    <main>
+        <div class="container">
+            <div class="post-con">
+                <div class="post-blog">
+                    <a href="#"><input type="submit" value="post content now" class="input2" ></a>
+                </div>
+                <div class="post-set">
+                    <p>Lorem, ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+  
 </html>
