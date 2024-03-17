@@ -220,6 +220,12 @@ header {
    color: #252525;
 }
 
+.past-list a:hover {
+   text-decoration: none;
+   color: #252525;
+   
+  
+}
 .top-head {
    padding: 0.5rem  ;
    font-family: "Oswald", sans-serif;
