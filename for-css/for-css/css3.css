@@ -157,6 +157,12 @@ header {
    font-size: 20px;
    padding: 0.1rem;
 }
+.input2:hover{
+   background: rgba(255,255,255,0.75);
+-webkit-backdrop-filter: blur(7px);
+backdrop-filter: blur(7px);
+border: 1px solid rgba(255,255,255,0.375);
+}
 .con-top{
    padding: 1rem;
    display: flex;
@@ -168,6 +174,15 @@ header {
    border-radius: 20px;
    
 }
+.top-list:hover {
+   text-decoration: none;
+   color: #252525;
+   background: rgba(255,255,255,0.35);
+   -webkit-backdrop-filter: blur(28px);
+   backdrop-filter: blur(28px);
+   border: 1px solid rgba(255,255,255,0.175);
+}
+
 .past-head{
    padding: 0.5rem  ;
    font-family: "Oswald", sans-serif;
@@ -189,13 +204,14 @@ header {
    color: #252525;
 }
 
-.past-list a:hover {
+.past-list p:hover {
    text-decoration: none;
    color: #252525;
-     background: rgba(255,255,255,0.35);
+   background: rgba(255,255,255,0.35);
    -webkit-backdrop-filter: blur(28px);
    backdrop-filter: blur(28px);
    border: 1px solid rgba(255,255,255,0.175);
+   border-radius: 10PX;
 }
 .top-head {
    padding: 0.5rem  ;
@@ -273,5 +289,4 @@ header {
    border: 1px solid rgba(255,255,255,0.175);
    transition: font-size 0.3s ease-in;
    font-size: 1.2rem;
-
  }
