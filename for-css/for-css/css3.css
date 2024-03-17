@@ -1,4 +1,5 @@
 
+.clear{clear:both; line-height:0; height:0; font-size: 1px}
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +36,7 @@ header {
   
 .nav-con{
       display: flex;
-      justify-content: space-between;
+      justify-content:space-between;
       
    }
 
@@ -54,13 +55,35 @@ header {
     display: flex;
     list-style: none;
     align-items: center;
-   padding: 2px 5px;
+   padding: 2px 9px;
     cursor: pointer;
     background: transparent;
     position: relative;
     transition: all 0.25s ease;
    font-size: 1rem;
+   padding-left: 25rem;
+  
+   
  }
+ .left-menu {
+   position: absolute;
+   left: 0;
+   top: 0;
+   display: flex;
+   padding-top: 1rem;
+   padding-left: 1rem;
+}
+
+
+ 
+ .left-menu ul{
+   font-size: large;
+   padding: 0.5rem;
+   float: left;
+   padding-right: 1rem;
+ }
+
+
  .menu li{
     margin: 0 1rem;
    width: 120px;
@@ -84,64 +107,7 @@ header {
 
 
 
-   .profile{
-      float: left;
-      padding-left: 3rem;
-   }
-
-   
-
- .profile-con{
-   display: flex;
- }
- .profile-img img{
-   width: 80%;
-   padding: 1rem;
-   align-items: center;
-   
- }
- .profile-info{
-   width: 250%;
-   padding:  1rem;
- }
-.profile-info h3{
-   font-size:  1rem;
-   -webkit-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
-   -moz-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
-   box-shadow: 30px 10px 10.5px -9.5px #dddddd;
-   
-}
-.profile-info p{
-   margin: 1rem 0;
-   -webkit-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
-   -moz-box-shadow: 30px 10px 10.5px -9.5px #dddddd;
-   box-shadow: 30px 10px 10.5px -9.5px #dddddd;
-}
-.profile-not a img {
-   width: 20%;
-   margin: 1rem 0;
-   float: right;
-   
  
-}
-
-.profile-con{
-   background: rgba(255,255,255,0.25);
-   -webkit-backdrop-filter: blur(50px);
-   backdrop-filter: blur(50px);
-   border: 1px solid rgba(255,255,255,0.125);
-   margin: 1rem;
-   border-radius: 30px ;
-}
-.pic2{
-   float: right;
-   margin: 1rem;
-   padding:  10px;
-
-}
-.pic1{
-   padding:  10px;
-}
 
 .search-box{
    width: 250px;
@@ -163,6 +129,7 @@ header {
    border:solid 1px #252525;
    border-radius: 3px ;
   margin: 0.8rem;
+  
 }
 
 .search-box p{
@@ -179,6 +146,7 @@ header {
    font-style: normal;
    
 }
+
 .input2 {
    background: rgba(255,255,255,0.25);
    -webkit-backdrop-filter: blur(50px);
@@ -187,7 +155,7 @@ header {
    margin: 0.3rem;
    border-radius: 10px ;
    font-size: 20px;
-   padding: 0.3rem;
+   padding: 0.1rem;
 }
 .con-top{
    padding: 1rem;
@@ -198,6 +166,7 @@ header {
    backdrop-filter: blur(50px);
    border: 1px solid rgba(255,255,255,0.125);
    border-radius: 20px;
+   
 }
 .past-head{
    padding: 0.5rem  ;
@@ -223,8 +192,10 @@ header {
 .past-list a:hover {
    text-decoration: none;
    color: #252525;
-   
-  
+     background: rgba(255,255,255,0.35);
+   -webkit-backdrop-filter: blur(28px);
+   backdrop-filter: blur(28px);
+   border: 1px solid rgba(255,255,255,0.175);
 }
 .top-head {
    padding: 0.5rem  ;
@@ -246,6 +217,7 @@ header {
 }
 
 .post-con{
+   margin: 1rem;
    float: left;
    padding: 1rem;
    background: rgba(255,255,255,0.25);
@@ -257,7 +229,10 @@ header {
    width: 900px;
    height: 15vh;
    padding-top: 1rem;
-   
+   position: absolute;
+   left: 0;
+   top: 3;
+  
 }
 .post-con p{
    align-items: center;
