@@ -7,11 +7,12 @@
   
    }
    body{
-      /* background-image:url(https://img.freepik.com/premium-photo/background-with-dumbbells-bottle-drink-sport-fitness-after-work-exercise-gym_522591-601.jpg); */
+      background-image:url(https://img.freepik.com/premium-photo/background-with-dumbbells-bottle-drink-sport-fitness-after-work-exercise-gym_522591-601.jpg);
       background-size: cover;
-      background: #8b76be;
+      /* background: #8b76be;
       background: -webkit-radial-gradient(circle, #8b76be 0%, #db5454 50%, #d28760 100%);
-      background: radial-gradient(circle, #8b76be 0%, #db5454 50%, #d28760 100%);
+      background: radial-gradient(circle, #8b76be 0%, #db5454 50%, #d28760 100%); */
+      size: 100%;
    }
 
 .container{
@@ -76,12 +77,16 @@ header {
 
 
  
- .left-menu ul{
+ .left-menu li{
    font-size: large;
-   padding: 0.5rem;
-   float: left;
+   padding-top: 0.5rem;
+   list-style: none;
    padding-right: 1rem;
  }
+
+.hum-menu a{
+   color: #252525;
+}
 
 
  .menu li{
@@ -104,7 +109,43 @@ header {
    transition: background-color 0.4s;
    
  }
+ .hum-menu a ul  li{
+   margin: 2 3rem;
+   color: black;
+   list-style: none;
+   padding-right: 1rem;
+   width: 300px;
+   
+   
+ }
+  .hum-menu li a ul  {
+   margin: 2 3rem;
+   color: black;
+   list-style: none;
+   padding-right: 1rem;
+   width: 300px;
+   
+   
+ }
+ .popup-menu{
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   background: rgba(255,255,255,0.25);
+   -webkit-backdrop-filter: blur(50px);
+   backdrop-filter: blur(50px);
+   border: 1px solid rgba(255,255,255,0.125);
+   text-decoration: none;
+ }
 
+.popup-menu  a {
+   text-decoration: none;
+}
+ .popup-menu :hover{
+   color: darkslateblue;
+   }
+ .name-user li a{
+   text-decoration: none;
+   color: #252525;
+ }
 
 
  
@@ -242,7 +283,7 @@ border: 1px solid rgba(255,255,255,0.375);
    border: 1px solid rgba(255,255,255,0.125);
    border-radius: 20px;
    display : flex;
-   width: 900px;
+   width:1130px ;
    height: 15vh;
    padding-top: 1rem;
    position: absolute;
@@ -289,4 +330,8 @@ border: 1px solid rgba(255,255,255,0.375);
    border: 1px solid rgba(255,255,255,0.175);
    transition: font-size 0.3s ease-in;
    font-size: 1.2rem;
+   color: #f74d37;
+ }
+ .button1 :hover {
+  color: #f74d37;
  }
