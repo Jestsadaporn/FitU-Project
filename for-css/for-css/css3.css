@@ -347,6 +347,7 @@ border: 1px solid rgba(255,255,255,0.075);
 .aside-left a {
 text-decoration: none;
 color: #212f1c;
+line-height: 0.8;
 }
 
 .aside-left a :hover {
@@ -355,3 +356,9 @@ color: #212f1c;
    backdrop-filter: blur(28px);
    border: 1px solid rgba(255,255,255,0.175);
    }
+
+   /* .dev-photo img{
+      width: 300px;
+      left: 0;
+      bottom: 2;
+   } */
