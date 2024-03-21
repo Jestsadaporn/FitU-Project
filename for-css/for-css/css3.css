@@ -7,11 +7,11 @@
   
    }
    body{
-      background-image:url(https://img.freepik.com/premium-photo/background-with-dumbbells-bottle-drink-sport-fitness-after-work-exercise-gym_522591-601.jpg);
+      /* background-image:url(https://img.freepik.com/premium-photo/background-with-dumbbells-bottle-drink-sport-fitness-after-work-exercise-gym_522591-601.jpg); */
       background-size: cover;
-      /* background: #8b76be;
-      background: -webkit-radial-gradient(circle, #8b76be 0%, #db5454 50%, #d28760 100%);
-      background: radial-gradient(circle, #8b76be 0%, #db5454 50%, #d28760 100%); */
+      background: #212f1c;
+background: -webkit-linear-gradient(0deg, #212f1c 0%, #87af35 50%, #b94d3e 100%);
+background: linear-gradient(0deg, #212f1c 0%, #87af35 50%, #b94d3e 100%);
       size: 100%;
    }
 
@@ -138,7 +138,7 @@ header {
    float: left;
    padding: 1rem;
    display: none;
-   
+
  }
 
 .popup-menu  a {
@@ -226,7 +226,7 @@ border: 1px solid rgba(255,255,255,0.375);
    border-radius: 20px;
    
 }
-.top-list:hover {
+.top-list a :hover {
    text-decoration: none;
    color: #252525;
    background: rgba(255,255,255,0.35);
@@ -275,14 +275,12 @@ border: 1px solid rgba(255,255,255,0.375);
 
 
 }
-.top-list a{
+.top-list a  {
    text-decoration: none;
    color: #252525;
 }
 
-.num-post{
-   padding-left: 1rem;
-}
+
 
 .post-con{
    margin: 1rem;
