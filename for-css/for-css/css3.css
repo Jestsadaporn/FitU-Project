@@ -134,10 +134,21 @@ header {
    backdrop-filter: blur(50px);
    border: 1px solid rgba(255,255,255,0.125);
    text-decoration: none;
+   position: absolute;
+   float: left;
+   padding: 1rem;
+   display: none;
+   
  }
 
 .popup-menu  a {
    text-decoration: none;
+   
+}
+
+.popup-menu  li {
+   padding-top: 0.125rem;
+   
 }
  .popup-menu :hover{
    color: darkslateblue;
