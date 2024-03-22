@@ -9,9 +9,9 @@
    body{
       /* background-image:url(https://img.freepik.com/premium-photo/background-with-dumbbells-bottle-drink-sport-fitness-after-work-exercise-gym_522591-601.jpg); */
       background-size: cover;
-      background: #212f1c;
-      background: -webkit-linear-gradient(0deg, #212f1c 0%, #87af35 50%, #b94d3e 100%);
-      background: linear-gradient(0deg, #212f1c 0%, #87af35 50%, #b94d3e 100%);
+      background: #00000e;
+background: -webkit-linear-gradient(238deg, #00000e 0%, #00000e 50%, #00aeb8 100%);
+background: linear-gradient(238deg, #00000e 0%, #00000e 50%, #00aeb8 100%);
       size: 100%;
    }
 
@@ -21,9 +21,9 @@
    }
 header {
    padding: 1rem;
-   background: #e0bb43;
+   /* background: #e0bb43;
    background: -webkit-linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
-   background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%);
+   background: linear-gradient(257deg, #e0bb43 0%, #f74d37 100%); */
 
    }
 
@@ -87,7 +87,9 @@ header {
  }
 
 .hum-menu a{
-   color: #252525;
+   /* color: #252525; */
+   color: #dddddd;
+
 }
 
 
@@ -102,7 +104,8 @@ header {
    }
 
  .menu li a{
-    color: black;
+    /* color: black; */
+    color: #dddddd;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
    font-optical-sizing: auto;
@@ -113,7 +116,8 @@ header {
  }
  .hum-menu a ul  li{
    margin: 2 3rem;
-   color: black;
+   /* color: black; */
+   color: #dddddd;
    list-style: none;
    padding-right: 1rem;
    width: 300px;
@@ -122,7 +126,8 @@ header {
  }
   .hum-menu li a ul  {
    margin: 2 3rem;
-   color: black;
+   /* color: black; */
+   color: #dddddd;
    list-style: none;
    padding-right: 1rem;
    width: 300px;
@@ -165,7 +170,8 @@ header {
    }
  .name-user li a{
    text-decoration: none;
-   color: #252525;
+   /* color: #252525; */
+   color: #dddddd;
  }
 
 
@@ -198,7 +204,8 @@ header {
    position: absolute;
    top: -11px;
    left: 5%;
-   color:black ;
+   /* color:black ; */
+   color:#1e579c;
    padding: 0 10px ;
    font-size: 18px;
    font-weight: 300;
@@ -256,17 +263,18 @@ border: 1px solid rgba(255,255,255,0.375);
 }
 .past-list{
    padding: 1rem;
-   background: rgba(255,255,255,0.25);
-   -webkit-backdrop-filter: blur(50px);
-   backdrop-filter: blur(50px);
-   border: 1px solid rgba(255,255,255,0.125);
+   background: rgba(233,234,242,0.15);
+   -webkit-backdrop-filter: blur(23px);
+   backdrop-filter: blur(23px);
+   border: 1px solid rgba(233,234,242,0.075);
    border-radius: 20px;
    line-height: 1.0;
    
 }
 .past-list a {
    text-decoration: none;
-   color: #252525;
+   /* color: #252525; */
+   color: #dddddd;
    padding-top: 0.01rem;
    
 }
@@ -292,8 +300,8 @@ border: 1px solid rgba(255,255,255,0.375);
 }
 .top-list a  {
    text-decoration: none;
-   color: #252525;
-   
+   /* color: #252525; */
+ color: #dddddd;  
 }
 .top-list{
    padding: 1rem;
@@ -323,11 +331,11 @@ border: 1px solid rgba(255,255,255,0.375);
    border: 1px solid rgba(255,255,255,0.175);
    transition: font-size 0.3s ease-in;
    font-size: 1.2rem;
-   color: #f74d37;
+   color: #0ce6f2;
  }
 
  .button1 :hover {
-  color: #f74d37;
+  color:#0ce6f2;
  }
 
  .dev-photo img {
@@ -351,7 +359,8 @@ border: 1px solid rgba(255,255,255,0.075);
 
 .aside-left a {
 text-decoration: none;
-color: #212f1c;
+/* color: #212f1c; */
+color: #dddddd;
 line-height: 0.8;
 }
 
