@@ -9,9 +9,7 @@
    body{
       /* background-image:url(https://img.freepik.com/premium-photo/background-with-dumbbells-bottle-drink-sport-fitness-after-work-exercise-gym_522591-601.jpg); */
       background-size: cover;
-      background: #00000e;
-background: -webkit-linear-gradient(238deg, #00000e 0%, #00000e 50%, #00aeb8 100%);
-background: linear-gradient(238deg, #00000e 0%, #00000e 50%, #00aeb8 100%);
+      background: conic-gradient(from 120deg at 68% 103%, rgba(0,0,14,1), rgba(0,25,51,1), rgba(0,127,142,1));
       size: 100%;
    }
 

@@ -1,6 +1,10 @@
 html,
 body {
   height: 100%;
+  background-color: #007f8e;
+opacity: 0.9;
+background-image: radial-gradient(circle at center center, #00aeb8, #007f8e), repeating-radial-gradient(circle at center center, #00aeb8, #00aeb8, 26px, transparent 52px, transparent 26px);
+background-blend-mode: multiply;
 }
 
 .form-signin {
