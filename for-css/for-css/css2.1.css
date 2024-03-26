@@ -1,8 +1,9 @@
 html,
 body {
-  height: 100%;
-  background: radial-gradient(ellipse at 49% 125%,rgba(0,25,51,1), rgba(0,63,81,1), rgba(0,127,142,1), rgba(0,174,184,1), rgba(0,190,188,1));
+ 
+  background: radial-gradient(circle at 0% 55%,rgba(0,0,14,1), rgba(0,63,81,1), rgba(0,127,142,1), rgba(0,174,184,1));
   background-size: cover;
+  size: 100%;
 }
 
 .form-signin {

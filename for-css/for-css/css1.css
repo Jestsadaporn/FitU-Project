@@ -1,10 +1,8 @@
 html,
 body {
   height: 100%;
-  background-color: #007f8e;
-opacity: 0.9;
-background-image: radial-gradient(circle at center center, #00aeb8, #007f8e), repeating-radial-gradient(circle at center center, #00aeb8, #00aeb8, 26px, transparent 52px, transparent 26px);
-background-blend-mode: multiply;
+  background: radial-gradient(ellipse at 49% 125%,rgba(0,25,51,1), rgba(0,63,81,1), rgba(0,127,142,1), rgba(0,174,184,1), rgba(0,190,188,1));
+  background-size: cover;
 }
 
 .form-signin {
@@ -26,4 +24,8 @@ background-blend-mode: multiply;
 #gotosign-up a {
   text-decoration: none;
     color:white;
+}
+#gototrain a{
+  text-decoration: none;
+  color: white;
 }
