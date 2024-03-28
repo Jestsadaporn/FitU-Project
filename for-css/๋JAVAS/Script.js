@@ -1,4 +1,6 @@
- let popup = document.getElementById("popup1");
+
+let popup = document.getElementById("popup");
+
 function openPopup(){
     popup.classList.add("open-popup");
 }
