@@ -59,11 +59,11 @@
 
             <!-- profile user -->
             <main>
-                <div class="container">
+                <!-- <div class="container">
                     <div class="post-grid">
                         <div class="post-con">
-                            <div class=" post">
-                                <button type="button" onclick="openPopup()">Tell your story to your friends.</button> 
+                            <div class="post"> -->
+                                <button type="submit" onclick="openPopup()">Tell your story to your friends.</button> 
                             </div>    
                             <div class="post-popup" id="popup1">
                                 <h2>post something</h2>
@@ -71,6 +71,26 @@
                                 <button type="button" onclick="closePopup()">x</button>
                             </div>
                             
+                            <script>
+                                function openPopup() {
+                                    let popup = document.getElementById("popup1");
+                                    if (popup) {
+                                        popup.classList.add("open-Popup");
+                                    } else {
+                                        console.error("Popup element not found.");
+                                    }
+                                }
+                        
+                                function closePopup() {
+                                    let popup = document.getElementById("popup1");
+                                    if (popup) {
+                                        popup.classList.remove("open-Popup");
+                                    } else {
+                                        console.error("Popup element not found.");
+                                    }
+                                }
+                            </script>
+
                             <div class="post-aside">
                                 <div class="first-set">
                                     <input type="radio" name="privacy" value="public" id="public">
@@ -110,7 +130,7 @@
      
                 </div>
             </main> 
-            <!-- profile user
+            <!-- profile user -->
 
             <!-- sidebar right -->
             <aside  class="page-aside">
