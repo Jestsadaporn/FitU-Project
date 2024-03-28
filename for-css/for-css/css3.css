@@ -428,6 +428,7 @@ line-height: 0.8;
       backdrop-filter: blur(19px);
       border: 1px solid rgba(255,255,255,0.075);
       color: #dddddd;
+      z-index: -9;
    }
    .post-main img {
       width: 100%;
@@ -552,14 +553,35 @@ line-height: 0.8;
 }
 .post-popup{
    width: 800px;
-   height: 15vh;
+   height: 40vh;
    background-color: burlywood;
    box-sizing: 6px;
    position: absolute;
-   top: 50%;
+   top: 0%;
    left: 50%;
-   transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%) scale(0.1);
    text-align: center;
    padding:  0 30px 30px;
    color: #dddddd;
+   z-index:  999;
+   /* position: absolute; */
+   visibility: hidden;
+   transition: transform 0.4s, top 0.4s;
+}
+.open-Popup{
+   visibility:visible;
+   top: 50%;
+   transform: translate(-50%,-50%) scale(1);
+}
+.post-popup button{
+   width: 30%;
+   margin-top: 50px;
+   padding: 10px 0;
+   background: #252525;
+   color: #dddddd;
+   outline: none;
+   font-size: medium;
+   border-radius: 8px;
+   cursor: pointer;
+   
 }

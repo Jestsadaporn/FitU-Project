@@ -1,10 +1,7 @@
-// function showPopupMenu(){
-//     let popupMenu = document.getElementById('popupMenu');
-
-//     if (popupMenu.style.display === 'none') {
-//         popupMenu.style.display = 'block';
-//       } else {
-//         popupMenu.style.display = 'none';
-//       }
-
-// }
+ let popup = document.getElementById("popup1");
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
