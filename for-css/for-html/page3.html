@@ -59,9 +59,10 @@
 
             <!-- profile user -->
             <main>
-                <div class="container">
+                <!-- <div class="container">
                     <div class="post-grid">
                         <div class="post-con">
+<<<<<<< HEAD
                             
                             <div class=" post">
                                 <button type="submit" onclick="openPopup()">Tell your story to your friends.</button> 
@@ -72,6 +73,37 @@
                                     <button type="button" onclick="closePopup()">x</button>
                                 </div>
                               
+=======
+                            <div class="post"> -->
+                                <button type="submit" onclick="openPopup()">Tell your story to your friends.</button> 
+                            </div>    
+                            <div class="post-popup" id="popup1">
+                                <h2>post something</h2>
+                                <p>Lorem, ipsum dolor.</p>
+                                <button type="button" onclick="closePopup()">x</button>
+                            </div>
+                            
+                            <script>
+                                function openPopup() {
+                                    let popup = document.getElementById("popup1");
+                                    if (popup) {
+                                        popup.classList.add("open-Popup");
+                                    } else {
+                                        console.error("Popup element not found.");
+                                    }
+                                }
+                        
+                                function closePopup() {
+                                    let popup = document.getElementById("popup1");
+                                    if (popup) {
+                                        popup.classList.remove("open-Popup");
+                                    } else {
+                                        console.error("Popup element not found.");
+                                    }
+                                }
+                            </script>
+
+>>>>>>> 762ffbeb3560f3bbfa87d44f324383eabd4a5556
                             <div class="post-aside">
                                 <div class="first-set">
                                     <input type="radio" name="privacy" value="public" id="public">
@@ -111,7 +143,7 @@
      
                 </div>
             </main> 
-            <!-- profile user
+            <!-- profile user -->
 
             <!-- sidebar right -->
             <aside  class="page-aside">
