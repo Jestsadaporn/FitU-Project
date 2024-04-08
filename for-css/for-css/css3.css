@@ -41,7 +41,6 @@ header {
    'header header header'
    'section main aside'
 
-
 }
 .page-header{
    grid-area: header;
@@ -359,8 +358,6 @@ border: 1px solid rgba(255,255,255,0.375);
    backdrop-filter: blur(19px);
    border: 1px solid rgba(255,255,255,0.075); */
    border-radius: 6px;
-   border: 1px solid rgba(255,255,255,0.075); 
-   border-radius: 6px;
    width: 120px;
    color: #dddddd;
    text-align: center;
@@ -376,13 +373,10 @@ border: 1px solid rgba(255,255,255,0.375);
    -webkit-backdrop-filter: blur(28px);
    backdrop-filter: blur(28px);
    border: 1px solid rgba(255,255,255,0.175);  */
-   border: 1px solid rgba(255,255,255,0.175);  
    transition: font-size 0.3s ease-in;
-    /* font-size: 1.2rem;  */
     /* font-size: 1.2rem;  */
    color: #0ce6f2;
  } 
- 
 
  .button1 :hover {
   color:#0ce6f2;
@@ -634,8 +628,6 @@ padding-left: 5px;
       display: grid;
       grid-template-columns: 300px 560px ;
       grid-template-rows: minmax(20px,auto) minmax(20px,auto);
-      grid-template-columns: 300px 560px ;
-      grid-template-rows: minmax(20px,auto) minmax(20px,auto);
       padding: 1rem;
      background: rgba(0,127,142,0.45);
       -webkit-backdrop-filter: blur(44px);
@@ -646,25 +638,19 @@ padding-left: 5px;
       'aside  main'
       
 
-      
-
    }
    .post{
       grid-area: header;
       margin-left: 2.5rem;
    }
    .post button{
-   .post button{
    padding-bottom: 0.2rem;
 
-   }
    }
    .post-aside{
       grid-area: aside;
       justify-content:space-between;
-      justify-content:space-between;
       padding-top: 5px;
-      padding-left: 35px;
       padding-left: 35px;
    }
 
@@ -672,7 +658,6 @@ padding-left: 5px;
    text-decoration: none;
    color: #252525;
  }
-
 
  .first-set label{
    padding-right: 10px;
@@ -685,9 +670,6 @@ padding-left: 5px;
  .sec-set{
    display: flex;
    float: right;
-   margin-top: 0.2rem;
-   grid-area: main;
-   padding-left: 18rem;
    margin-top: 0.2rem;
    grid-area: main;
    padding-left: 18rem;
@@ -738,7 +720,6 @@ padding-left: 5px;
    background: linear-gradient(180deg, rgba(0,25,51,1), rgba(121,96,149,1), rgba(74,122,150,1), rgba(0,174,184,1));
    box-sizing: 3px;
    position: absolute;
-   top: 0%;
    top: 0%;
    left: 50%;
    transform: translate(-50%,-50%) scale(0.1);
