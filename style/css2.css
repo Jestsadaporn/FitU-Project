@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+  background: radial-gradient(ellipse at 49% 125%,rgba(0,25,51,1), rgba(0,63,81,1), rgba(0,127,142,1), rgba(0,174,184,1), rgba(0,190,188,1));
+  background-size: cover;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+#gotopage1 a {
+    text-decoration: none;
+    color:white;
+
+}
+#gotosign-in a {
+  text-decoration: none;
+  color:white;
+}

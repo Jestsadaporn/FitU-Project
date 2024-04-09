@@ -1,0 +1,29 @@
+body {
+ 
+    background: conic-gradient(from 150deg at 121% 0%, rgba(125, 171, 137, 1), rgba(178, 115, 128, 1));
+    background-size: cover;
+    size: 100%;
+  }
+  #form1{
+    width: 60%;
+    padding-left: 2rem;
+}
+#form2{
+    width: 60%;
+    padding-left: 2rem;
+}
+#test-col{
+    color: aliceblue;
+}
+.box-form{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    
+}
+.point-test{
+    margin-top: 2rem;
+  
+}
+#Confirm-form form{
+    padding-left: 1rem;
+}
