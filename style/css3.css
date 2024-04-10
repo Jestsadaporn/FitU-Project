@@ -35,7 +35,7 @@ header {
    }
 .grid1{
    display: grid;
-   grid-template-columns: 230px auto 300px;
+   grid-template-columns: 230px auto auto;
    grid-template-rows: minmax(100px,auto) minmax(250px,auto);
    grid-template-areas: 
    'header header header'
@@ -61,6 +61,9 @@ header {
 .nav-con{
       display: flex;
       justify-content:space-between;
+      /* width: 1440px; */
+      margin: auto;
+      /* background-color: cornflowerblue; */
       
    }
 
@@ -104,10 +107,13 @@ header {
  .page-header{
    /* position: sticky; */
 position: fixed;
-   background-color: aquamarine;
-   
+   background-color:black;
    margin: auto;
+   width: 1490px;
+   z-index: 999;
+
  }
+
 
  .left-menu {
    position: absolute;
@@ -226,6 +232,7 @@ position: fixed;
    height: 6vh;
    position: relative;
    display: flex;
+   
 }
 .input1 {
    width: 100%;
@@ -286,6 +293,7 @@ border: 1px solid rgba(255,255,255,0.375);
    border-width: 2px; 
    border-color: #00aeb8;
    border-radius: 20px;
+   z-index: 1;
    
    
 }
@@ -394,12 +402,15 @@ border: 1px solid rgba(255,255,255,0.375);
  }
  .aside-left{
 float: left;
+position: fixed;
+
+margin: auto;
 left: 0;
 top: 2;
 margin-left: 2px;
 padding-top: 1rem;
-position: absolute;
-height: 100%;
+/* position: absolute; */
+height: 84%;
 width: 15%;
 background: rgba(0,127,142,0.45);
 -webkit-backdrop-filter: blur(44px);

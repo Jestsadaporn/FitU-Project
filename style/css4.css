@@ -97,6 +97,13 @@ position: fixed;
 /* background-color: #212f1c; */
    
 }
+.page-header{
+   position: fixed;
+   background-color:black;
+   margin: auto;
+   width: 1490px;
+   z-index: 0.5;
+}
 .menu {
     display: flex;
     list-style: none;

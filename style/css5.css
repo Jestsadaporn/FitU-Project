@@ -319,10 +319,11 @@ border: 1px solid rgba(255,255,255,0.375);
    
 }
 .page-header{
+   position: fixed;
    background-color:black;
-   /* position: fixed; */
-   /* display: flex; */
-   position: static;
+   margin: auto;
+   width: 1490px;
+   z-index: 2;
 }
 
 .past-list p:hover {
