@@ -805,16 +805,16 @@ padding-left: 5px;
 .page-main-pic1 img {
    /* width:1120px;
    height: 400px; */
-   background-color: aqua;
+   /* background-color: aqua; */
 
 }
 .page-main-pic2 img {
-   /* width: 320px;
-   height: 400px; */
-   background-color: chartreuse;
+   width: 800px;
+   height: 400px;
+   /* background-color: chartreuse; */
 }
 .page-main-pic3 img {
-   /* width: 800px;
-   height: 400px */
-   background-color: fuchsia;
+   width: 320px;
+   height: 400px
+   /* background-color: fuchsia; */
 }
