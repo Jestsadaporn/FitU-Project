@@ -802,12 +802,7 @@ padding-left: 5px;
 .page-main-pic3{
    grid-area: main;
 }
-.page-main-pic1 img {
-   /* width:1120px;
-   height: 400px; */
-   /* background-color: aqua; */
 
-}
 .page-main-pic2 img {
    width: 800px;
    height: 400px;
@@ -829,3 +824,15 @@ padding-left: 5px;
    border-radius: 2px;
 
 }
+.clearfix :before, .clearfix:after{
+   content: "";
+   display: table;
+}
+.clearfix:after{
+   clear: both;
+}
+.carousel clearfix {
+   width: 115opx;
+   margin:30px auto;
+}
+
