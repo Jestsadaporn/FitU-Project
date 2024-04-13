@@ -829,24 +829,26 @@ padding-left: 5px;
    width: 12opx;
    margin:30px auto;
 }
-.carousel h1{
-   font-size: 36px;
-   margin: 0px 0px 30px 0px ;
+.carousel h2{
+   font-size: 26px;
+   margin: 0px 0px 10px 0px ;
    font-weight: 600;
+   color: #dddddd;
 }
 .carousel .box-sider {
 float: left;
-width: 33%;
+width: 20%;
 }
 .carousel .box-sider p {
-font-size: 20px;
+font-size: 16px;
 color: #dddddd;
-text-align: center;
-margin: 5px;
+text-align: left;
+margin: 10px;
 }
 .carousel .box-sider p img {
-   margin-bottom: 10px;
+   margin-bottom: 20px;
    margin: auto;
+   width: 200px;
 }
 .slick-prev, .slick-next{
    background: url(/image/arrows.png);
@@ -874,4 +876,6 @@ margin: 5px;
    width: 90%;
 }
 }
-   
+/* .carousel clearfix h2 {
+   color: #dddddd;
+}    */
