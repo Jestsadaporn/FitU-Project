@@ -41,10 +41,10 @@
                             </div>
                         </div>
                         <ul class="menu">
-                            <li class="button1"><a href="post.html" class="HOME"><i class="bi bi-house-door-fill"></i> HOME</a></li>
+                            <li class="button1"><a href="post.html" class="HOME"><i class="bi bi-house-door"></i>HOME</a></li>
                             <li class="button1"><a href="chat.html"><i class="bi bi-chat-dots"></i> CHAT</a></li>
                             <li class="button1"><a href="workout.html"><i class="bi bi-lungs"></i> WORKOUT</a></li>
-                            <li class="button1"><a href="act.html"><i class="bi bi-lightning-charge"></i> ACTIVITY</a></li>
+                            <li class="button1"><a href="act.html"><i class="bi bi-lightning-charge-fill"></i> ACTIVITY</a></li>
                             <li class="button1"><a href="game.html"><i class="bi bi-dice-3"></i> GAME</a></li>
                             <form role="search">
                                 <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -131,81 +131,334 @@
                             <h2>what do you want to do now </h2>
                             <div class="carousel-vive clearfix">
                                 <div class="box-sider">
-                                    <p><img src="/image/run.png" alt="">
-                                    <br>
-                                        <span>Run</span>
+                                    <p><button type="submit" onclick="openPopup()" ><img src="/image/run.png" alt=""></button>
+                                <div class="post-popup" id="popup1">
+                                    <h2>You choose to run</h2>
+                                    <p></p>
+                                    <!-- <img src="/image/run.png" alt=""> -->
+                                                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                                    <!-- <textarea name="" id="" rows="3"></textarea> -->
+                                                    <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                    <button type="button" onclick="closePopup()">leave</button>
+                                </div>
+                                        <script>
+                                            function openPopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.add("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                    
+                                            function closePopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.remove("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                        </script>
+                                    <!-- <br> -->
+                                        <!-- <span>Run</span> -->
                                         
                                     </p>
                                   
                                 </div><!--end box-->
                                 <div class="box-sider">
-                                    <p><img src="/image/yoka.png" alt="">
-                                    <br>
-                                        <span>Yoka</span>
-                                    
-    
+                                    <p><button type="submit" onclick="openPopup()" ><img src="/image/yoka.png" alt=""></button>
+                                        <div class="post-popup" id="popup1">
+                                            <h2>post something</h2>
+                                            <img src="/image/yoka.png" alt="">
+                                                            <!-- <p>Lorem, ipsum dolor.</p> -->
+                                            <!-- <textarea name="" id="" rows="3"></textarea> -->
+                                                            <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                            <button type="button" onclick="closePopup()">leave</button>
+                                        </div>
+                                                <script>
+                                                    function openPopup() {
+                                                        let popup = document.getElementById("popup1");
+                                                        if (popup) {
+                                                            popup.classList.add("open-Popup");
+                                                        } else {
+                                                            console.error("Popup element not found.");
+                                                        }
+                                                    }
+                                            
+                                                    function closePopup() {
+                                                        let popup = document.getElementById("popup1");
+                                                        if (popup) {
+                                                            popup.classList.remove("open-Popup");
+                                                        } else {
+                                                            console.error("Popup element not found.");
+                                                        }
+                                                    }
+                                                </script>
+                    
                                     </p>
                                 </div><!--end box-->
                                 <div class="box-sider">
-                                    <p><img src="/image/dance.png" alt="">
-                                    <br>
-                                        <span>Dance</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/dance.png" alt=""></button>
+                                <div class="post-popup" id="popup1">
+                                    <h2>post something</h2>
+                                                            <!-- <p>Lorem, ipsum dolor.</p> -->
+                                    <textarea name="" id="" rows="3"></textarea>
+                                                            <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                    <button type="button" onclick="closePopup()">leave</button>
+                                        </div>
+                                                <script>
+                                                    function openPopup() {
+                                                        let popup = document.getElementById("popup1");
+                                                        if (popup) {
+                                                            popup.classList.add("open-Popup");
+                                                        } else {
+                                                            console.error("Popup element not found.");
+                                                        }
+                                                    }
+                                            
+                                                    function closePopup() {
+                                                        let popup = document.getElementById("popup1");
+                                                        if (popup) {
+                                                            popup.classList.remove("open-Popup");
+                                                        } else {
+                                                            console.error("Popup element not found.");
+                                                        }
+                                                    }
+                                                </script>
+                                
                                         
                                     
                                     </p>
                                 </div><!--end box-->
                                 <div class="box-sider">
-                                    <p><img src="/image/swim.png" alt="">
-                                    <br>
-                                        <span>Swim</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/swim.png" alt=""></button>
+                                <div class="post-popup" id="popup1">
+                                            <h2>post something</h2>
+                                                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                                            <textarea name="" id="" rows="3"></textarea>
+                                                    <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                            <button type="button" onclick="closePopup()">leave</button>
+                                </div>
+                                        <script>
+                                            function openPopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.add("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                    
+                                            function closePopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.remove("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                        </script>
+                                
                                         
                                     </p>
                                 </div><!--end box-->
                                 
                                 <div class="box-sider">
-                                    <p><img src="/image/weight.png" alt="">
-                                    <br>
-                                        <span>Weight</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/weight.png" alt=""></button>
+                                        <div class="post-popup" id="popup1">
+                                            <h2>post something</h2>
+                                                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                                            <textarea name="" id="" rows="3"></textarea>
+                                                    <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                            <button type="button" onclick="closePopup()">leave</button>
+                                        </div>
+                                        <script>
+                                            function openPopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.add("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                    
+                                            function closePopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.remove("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                        </script>
                                         
                                     </p>
                                     
                                 </div><!--end box-->
                                 <div class="box-sider">
-                                    <p><img src="/image/biclycle.png" alt="">
-                                    <br>
-                                        <span>Biclycle</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/biclycle.png" alt=""></button>
+                                <div class="post-popup" id="popup1">
+                                    <h2>post something</h2>
+                                            <!-- <p>Lorem, ipsum dolor.</p> -->
+                                    <textarea name="" id="" rows="3"></textarea>
+                                            <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                    <button type="button" onclick="closePopup()">leave</button>
+                                </div>
+                                <script>
+                                    function openPopup() {
+                                        let popup = document.getElementById("popup1");
+                                        if (popup) {
+                                            popup.classList.add("open-Popup");
+                                        } else {
+                                            console.error("Popup element not found.");
+                                        }
+                                    }
+                            
+                                    function closePopup() {
+                                        let popup = document.getElementById("popup1");
+                                        if (popup) {
+                                            popup.classList.remove("open-Popup");
+                                        } else {
+                                            console.error("Popup element not found.");
+                                        }
+                                    }
+                                </script>
                                         
                                     </p>
                                   
                                 </div><!--end box-->
                                 <div class="box-sider">
-                                    <p><img src="/image/football.png" alt="">
-                                    <br>
-                                        <span>Football</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/football.png" alt=""></button>
+                                        <div class="post-popup" id="popup1">
+                                            <h2>post something</h2>
+                                                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                                            <textarea name="" id="" rows="3"></textarea>
+                                                    <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                            <button type="button" onclick="closePopup()">leave</button>
+                                        </div>
+                                        <script>
+                                            function openPopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.add("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                    
+                                            function closePopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.remove("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                        </script>
+                                    <!-- <br>
+                                        <span>Football</span> -->
                                    
     
                                     </p>
                                 </div><!--end box-->
                                 <div class="box-sider">
-                                    <p><img src="/image/basketball.png" alt="">
-                                    <br>
-                                        <span>Basketball</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/basketball.png" alt=""></button>
+                                        <div class="post-popup" id="popup1">
+                                            <h2>post something</h2>
+                                                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                                            <textarea name="" id="" rows="3"></textarea>
+                                                    <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                            <button type="button" onclick="closePopup()">leave</button>
+                                        </div>
+                                        <script>
+                                            function openPopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.add("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                    
+                                            function closePopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.remove("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                        </script> 
                                         
                                     
                                     </p>
                                 </div><!--end box-->
                                 <div class="box-sider">
-                                    <p><img src="/image/badmintion.png" alt="">
-                                    <br>
-                                        <span>Badmintion</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/badmintion.png" alt=""></button>
+                                        <div class="post-popup" id="popup1">
+                                            <h2>post something</h2>
+                                                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                                            <textarea name="" id="" rows="3"></textarea>
+                                                    <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                            <button type="button" onclick="closePopup()">leave</button>
+                                        </div>
+                                        <script>
+                                            function openPopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.add("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                    
+                                            function closePopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.remove("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                        </script>
+                                    <!-- <br>
+                                        <span>Snooker</span> -->
                                         
                                     </p>
+                                    
                                 </div><!--end box-->
                                 
                                 <div class="box-sider">
-                                    <p><img src="/image/snooker.png" alt="">
-                                    <br>
-                                        <span>Snooker</span>
+                                    <p><button type="submit" onclick="openPopup()"><img src="/image/snooker.png" alt=""></button>
+                                        <div class="post-popup" id="popup1">
+                                            <h2>post something</h2>
+                                                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                                            <textarea name="" id="" rows="3"></textarea>
+                                                    <!-- <textarea name="" id=""  rows="3"></textarea> -->
+                                            <button type="button" onclick="closePopup()">leave</button>
+                                        </div>
+                                        <script>
+                                            function openPopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.add("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                    
+                                            function closePopup() {
+                                                let popup = document.getElementById("popup1");
+                                                if (popup) {
+                                                    popup.classList.remove("open-Popup");
+                                                } else {
+                                                    console.error("Popup element not found.");
+                                                }
+                                            }
+                                        </script>
+                                    <!-- <br>
+                                        <span>Snooker</span> -->
                                         
                                     </p>
                                     
