@@ -889,4 +889,95 @@ margin: 10px;
    list-style: none;
    background-color: khaki;
    padding: 5px;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+}
+box-sider{
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   margin: 10px 8px;
+   min-width: 230px;
+   max-width: 315px;
+   width: 100%;
+}
+.trinner-chat1{
+   width: auto;
+   /* text-decoration: none; */
+   background-color:#212f1c;
+   float: right;
+   border-radius: 3px;
+   margin-top: 5px;
+   /* top: 3px; */
+      
+}
+.trinner-chat1 a{
+   /* width: auto; */
+   text-decoration: none;
+   color: #dddddd;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+}
+.snip{
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   margin: 10px 8px;
+   min-width: 230px;
+   max-width: 320px;
+   color: #dddddd;
+   text-align: center;
+   font-size: 16px;
+   width: 100%;
+}
+.snip * {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-transition: all 0.3 ease;
+   transition:  all  0.3 ease;
+}
+.snip::before{
+   position: absolute;
+   top: 10px;
+   bottom: 10;
+   left: 10px;
+   top: 100%;
+   right: 10px;
+   content: '';
+   background-color: #888;
+   -webkit-transition: all 0.3 ease;
+   transition:  all 0.3 ease;
+   -webkit-transition-delay: 0.3s;
+   transition-delay: 0.3s;
+}
+.snip img{
+ vertical-align: top;
+ max-width: 100%;
+ backface-visibility: hidden;
+
+}
+.snip figcaption{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 1px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+.snip h3,
+.snip h5{
+   margin: 0;
+   opacity: 0;
+   letter-spacing: 1px;
+}
+.snip h3 {
+   /* -wedkit */
 }

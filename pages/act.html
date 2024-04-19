@@ -133,13 +133,14 @@
                                 <div class="box-sider">
                                     <p><button type="submit" onclick="openPopup()" ><img src="/image/run.png" alt=""></button>
                                 <div class="post-popup" id="popup1">
-                                    <h2>You choose to run</h2>
+                                    <!-- <h2>You choose to run</h2> -->
                                     <p></p>
+                                    <div><img src="/image/run.png" alt=""></div>
                                     <!-- <img src="/image/run.png" alt=""> -->
                                                     <!-- <p>Lorem, ipsum dolor.</p> -->
                                     <!-- <textarea name="" id="" rows="3"></textarea> -->
                                                     <!-- <textarea name="" id=""  rows="3"></textarea> -->
-                                    <button type="button" onclick="closePopup()">leave</button>
+                                    <!-- <button type="button" onclick="closePopup()">leave</button> -->
                                 </div>
                                         <script>
                                             function openPopup() {
@@ -168,7 +169,7 @@
                                 </div><!--end box-->
                                 <div class="box-sider">
                                     <p><button type="submit" onclick="openPopup()" ><img src="/image/yoka.png" alt=""></button>
-                                        <div class="post-popup" id="popup1">
+                                        <div class="post-popup" id="popup2">
                                             <h2>post something</h2>
                                             <img src="/image/yoka.png" alt="">
                                                             <!-- <p>Lorem, ipsum dolor.</p> -->
@@ -178,7 +179,7 @@
                                         </div>
                                                 <script>
                                                     function openPopup() {
-                                                        let popup = document.getElementById("popup1");
+                                                        let popup = document.getElementById("popup2");
                                                         if (popup) {
                                                             popup.classList.add("open-Popup");
                                                         } else {
@@ -187,7 +188,7 @@
                                                     }
                                             
                                                     function closePopup() {
-                                                        let popup = document.getElementById("popup1");
+                                                        let popup = document.getElementById("popup2");
                                                         if (popup) {
                                                             popup.classList.remove("open-Popup");
                                                         } else {
