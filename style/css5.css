@@ -979,5 +979,21 @@ box-sider{
    letter-spacing: 1px;
 }
 .snip h3 {
-   /* -wedkit */
+   -webkit-transform: translateY(-100%);
+   transform: translateY(-100%);
+   text-transform: uppercase;
+   font-weight: 400;
+   -webkit-transition-delay: 0.05 ;
+   margin-bottom:  5px;
+}
+.snip h5{
+   font-weight: 400;
+   background-color:#ae895d ;
+   padding:  3px 10px;
+   -webkit-transform: translateY(-100%);
+   -webkit-transition-delay: 0s;
+   transition-delay: 0s;
+}
+.snip a{
+   position: absolute ;
 }
